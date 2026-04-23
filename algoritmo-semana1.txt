@@ -1,0 +1,39 @@
+Pregunta 5 — Actividad práctica de algoritmia
+Escribe un algoritmo de mínimo 6 pasos para explicar:
+ // Paso 1: Filtro de sensacionalismo
+        Si contenido.reaccion_emocional == "Extrema" Entonces
+            Esperar(600) // Pausa de enfriamiento para análisis crítico
+        FinSi
+
+        // Paso 2: Validación de la fuente
+        fuente = contenido.obtenerFuente()
+        Si fuente.es_anonima() O NO fuente.tiene_reputacion() Entonces
+            MarcarComoSospechoso(contenido)
+        FinSi
+
+        // Paso 3: Verificación de referencias
+        evidencia = contenido.extraerEnlacesYCitaciones()
+        Si evidencia.cantidad == 0 O evidencia.es_rota() Entonces
+            Retornar "No compartir: Falta de sustento"
+        FinSi
+
+        // Paso 4: Contraste de datos (Cross-check)
+        coincidencias = BusquedaGlobal(contenido.titular)
+        Si coincidencias.medios_confiables < 2 Entonces
+            Retornar "No compartir: Información no corroborada"
+        FinSi
+
+        // Paso 5: Filtro de obsolescencia
+        Si contenido.fecha_publicacion < fecha_actual - 365_dias Entonces
+            Retornar "No compartir: Contenido fuera de contexto temporal"
+        FinSi
+
+        // Paso 6: Consulta a Base de Datos de Fact-Checking
+        Si API_FactCheck.verificar(contenido) == "Falso" Entonces
+            ReportarContenido(contenido)
+            Retornar "No compartir: Desmentido oficialmente"
+        FinSi
+
+        // Ejecución final
+        Ejecutar Accion_Compartir(contenido)
+        Imprimir "Información compartida de forma responsable"
