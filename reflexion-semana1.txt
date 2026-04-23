@@ -1,0 +1,12 @@
+Pregunta 4 — Reflexión de la semana
+En un texto de 8 a 10 líneas, responde:
+
+¿Qué relación encuentras entre el uso responsable de la información en internet, la participación ciudadana y la organización del trabajo técnico con herramientas como git?
+Primero que todo git es una herramienta muy tecnica la cual nos ofrece usos para mejorar su organización y que lo que se quiera dar a entedenter ya sea cualquier
+tipo de informacion ,tenga un mejor nivel de comprension .Para que Git o la participación ciudadana funcionen, la materia prima (el dato o la información) debe ser veraz.El uso responsable de la información es el compromiso ético de manejar datos veraces; sin esta base, cualquier esfuerzo colectivo fracasa por desinformación. En la participación ciudadana, este compromiso permite que las personas influyan en su entorno con argumentos sólidos y transparencia.
+Aquí es donde entra Git: esta herramienta técnica organiza el trabajo mediante la trazabilidad. Al permitir que cada cambio sea registrado, auditado y atribuido a un autor, Git funciona como un modelo de "democracia técnica".
+ En conjunto, los tres elementos crean un ecosistema donde la información es confiable, el ciudadano tiene voz y el trabajo técnico garantiza que los procesos sean abiertos y verificables para todos.
+ En este contexto, la organización del trabajo técnico mediante Git ofrece una infraestructura metodológica que trasciende el desarrollo de software para convertirse en un modelo de gobernanza digital.
+  Git permite que cualquier proceso colaborativo sea totalmente trazable, lo que significa que cada modificación, propuesta o dato añadido tiene un autor identificado y un historial de cambios permanente. 
+  Esta característica es fundamental para la participación ciudadana moderna, ya que permite que los proyectos comunes sean abiertos y sujetos a la revisión de cualquier persona interesada.
+ En última instancia, la unión de estos elementos permite que la ciudadanía pase de ser una receptora pasiva de datos a ser una fuerza técnica capaz de auditar, proponer y construir soluciones públicas con la misma precisión y rigor que se desarrolla el código de las aplicaciones más complejas del mundo.
