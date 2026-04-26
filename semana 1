@@ -1,0 +1,63 @@
+Pregunta 1 — Selección múltiple
+¿Cuál de las siguientes opciones describe mejor qué es la ciudadanía digital?
+B. El uso responsable de la tecnología para informarse, participar y compartir información de manera ética
+Pregunta 2 — Selección múltiple
+¿Cuál es la razón principal por la que es importante verificar la información antes de compartirla en internet?
+C. Para evitar difundir información falsa o engañosa
+Pregunta 3 — Selección múltiple
+¿Cuál de las siguientes opciones define mejor un algoritmo?
+B. Una lista de pasos ordenados para resolver un problema
+
+Pregunta 4 — Reflexión de la semana
+En un texto de 8 a 10 líneas, responde:
+
+¿Qué relación encuentras entre el uso responsable de la información en internet, la participación ciudadana y la organización del trabajo técnico con herramientas como git?
+Primero que todo git es una herramienta muy tecnica la cual nos ofrece usos para mejorar su organización y que lo que se quiera dar a entedenter ya sea cualquier
+tipo de informacion ,tenga un mejor nivel de comprension .Para que Git o la participación ciudadana funcionen, la materia prima (el dato o la información) debe ser veraz.El uso responsable de la información es el compromiso ético de manejar datos veraces; sin esta base, cualquier esfuerzo colectivo fracasa por desinformación. En la participación ciudadana, este compromiso permite que las personas influyan en su entorno con argumentos sólidos y transparencia.
+Aquí es donde entra Git: esta herramienta técnica organiza el trabajo mediante la trazabilidad. Al permitir que cada cambio sea registrado, auditado y atribuido a un autor, Git funciona como un modelo de "democracia técnica".
+ En conjunto, los tres elementos crean un ecosistema donde la información es confiable, el ciudadano tiene voz y el trabajo técnico garantiza que los procesos sean abiertos y verificables para todos.
+ En este contexto, la organización del trabajo técnico mediante Git ofrece una infraestructura metodológica que trasciende el desarrollo de software para convertirse en un modelo de gobernanza digital.
+  Git permite que cualquier proceso colaborativo sea totalmente trazable, lo que significa que cada modificación, propuesta o dato añadido tiene un autor identificado y un historial de cambios permanente. 
+  Esta característica es fundamental para la participación ciudadana moderna, ya que permite que los proyectos comunes sean abiertos y sujetos a la revisión de cualquier persona interesada.
+ En última instancia, la unión de estos elementos permite que la ciudadanía pase de ser una receptora pasiva de datos a ser una fuerza técnica capaz de auditar, proponer y construir soluciones públicas con la misma precisión y rigor que se desarrolla el código de las aplicaciones más complejas del mundo.
+
+
+Pregunta 5 — Actividad práctica de algoritmia
+Escribe un algoritmo de mínimo 6 pasos para explicar:
+ // Paso 1: Filtro de sensacionalismo
+        Si contenido.reaccion_emocional == "Extrema" Entonces
+            Esperar(600) // Pausa de enfriamiento para análisis crítico
+        FinSi
+
+        // Paso 2: Validación de la fuente
+        fuente = contenido.obtenerFuente()
+        Si fuente.es_anonima() O NO fuente.tiene_reputacion() Entonces
+            MarcarComoSospechoso(contenido)
+        FinSi
+
+        // Paso 3: Verificación de referencias
+        evidencia = contenido.extraerEnlacesYCitaciones()
+        Si evidencia.cantidad == 0 O evidencia.es_rota() Entonces
+            Retornar "No compartir: Falta de sustento"
+        FinSi
+
+        // Paso 4: Contraste de datos (Cross-check)
+        coincidencias = BusquedaGlobal(contenido.titular)
+        Si coincidencias.medios_confiables < 2 Entonces
+            Retornar "No compartir: Información no corroborada"
+        FinSi
+
+        // Paso 5: Filtro de obsolescencia
+        Si contenido.fecha_publicacion < fecha_actual - 365_dias Entonces
+            Retornar "No compartir: Contenido fuera de contexto temporal"
+        FinSi
+
+        // Paso 6: Consulta a Base de Datos de Fact-Checking
+        Si API_FactCheck.verificar(contenido) == "Falso" Entonces
+            ReportarContenido(contenido)
+            Retornar "No compartir: Desmentido oficialmente"
+        FinSi
+
+        // Ejecución final
+        Ejecutar Accion_Compartir(contenido)
+        Imprimir "Información compartida de forma responsable"
